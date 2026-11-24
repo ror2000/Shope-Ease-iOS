@@ -19,22 +19,22 @@ The application integrates with a RESTful backend API developed using **Java and
 ## 📱 Screenshots
 
 ### Splash Screen
-![Splash Screen](Screenshots/splash.png)
+<img src="Screenshots/splash.png" width="250">
 
 ### Login Screen
-![Login Screen](Screenshots/login.png)
+<img src="Screenshots/login.png" width="250">
 
 ### Home Screen
-![Home Screen](Screenshots/home.png)
+<img src="Screenshots/home.png" width="250">
 
 ### Product Details
-![Product Details](Screenshots/product-details.png)
+<img src="Screenshots/product-details.png" width="250">
 
 ### Shopping Cart
-![Shopping Cart](Screenshots/cart.png)
+<img src="Screenshots/cart.png" width="250">
 
 ### My Orders
-![My Orders](Screenshots/orders.png)
+<img src="Screenshots/orders.png" width="250">
 
 ## 🛠️ Tech Stack
 
