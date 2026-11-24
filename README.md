@@ -1,32 +1,55 @@
 # 🛍️ Shope Ease – iOS E-Commerce App
 
-A native iOS E-Commerce application built with **SwiftUI** and **Swift**. The app connects to a RESTful backend API built with Spring Boot to provide an online shopping experience.
+A native iOS e-commerce application built using **Swift** and **SwiftUI**. Shope Ease provides users with a convenient shopping experience, allowing them to browse products, manage their shopping cart, place orders, and track their order history.
+
+The application integrates with a RESTful backend API developed using **Java and Spring Boot**.
 
 ## 🚀 Features
 
 - User registration and login.
 - Browse products and categories.
-- View product details.
+- View detailed product information, prices, and stock availability.
 - Add products to the shopping cart.
-- Manage cart item quantities.
-- Create orders from the shopping cart.
+- Update product quantities and remove cart items.
+- Place orders directly from the shopping cart.
 - View order history and order details.
 - Arabic and English language support.
 - Right-to-left (RTL) layout support for Arabic.
+
+## 📱 Screenshots
+
+### Splash Screen
+![Splash Screen](Screenshots/splash.png)
+
+### Login Screen
+![Login Screen](Screenshots/login.png)
+
+### Home Screen
+![Home Screen](Screenshots/home.png)
+
+### Product Details
+![Product Details](Screenshots/product-details.png)
+
+### Shopping Cart
+![Shopping Cart](Screenshots/cart.png)
+
+### My Orders
+![My Orders](Screenshots/orders.png)
 
 ## 🛠️ Tech Stack
 
 - Swift
 - SwiftUI
 - Xcode
-- REST API
+- MVVM Architecture
+- RESTful API
 - URLSession
 - JSON
 - Git & GitHub
 
 ## 🏗️ Architecture
 
-The application follows a structured SwiftUI architecture using:
+The application follows the **Model-View-ViewModel (MVVM)** architectural pattern:
 
 - **Views:** Build the user interface using SwiftUI.
 - **ViewModels:** Manage application state and business logic.
@@ -35,15 +58,15 @@ The application follows a structured SwiftUI architecture using:
 
 ## 🌐 Backend Integration
 
-The application communicates with a Spring Boot REST API.
+The iOS application communicates with a RESTful backend API developed using Java and Spring Boot.
 
 **Backend Repository:**  
-[ E-Commerce API – GitHub](https://github.com/ror2000/Ecommerce-API)
+[E-Commerce API – GitHub](https://github.com/ror2000/Ecommerce-API)
 
 **Live API:**  
 https://ecommerce-api-kvxq.onrender.com
 
-The app uses HTTP requests to communicate with the backend, including authentication and retrieving or managing shopping data.
+The application uses HTTP requests to communicate with the backend, including authentication and retrieving and managing shopping data.
 
 ## 🌍 Localization
 
@@ -51,24 +74,10 @@ The application supports:
 
 - English language.
 - Arabic language.
-- Right-to-left layout direction for Arabic.
+- Right-to-left (RTL) layout direction for Arabic.
 - Localized interface text using Apple's String Catalog.
 
 Some API-provided content may still require additional localization improvements.
-
-## 📱 Application Screens
-
-The application includes:
-
-- Splash Screen
-- Login Screen
-- Registration Screen
-- Home Screen
-- Product Details
-- Shopping Cart
-- Orders
-- Order Details
-- Profile
 
 ## ⚙️ Requirements
 
@@ -85,13 +94,11 @@ The application includes:
    git clone https://github.com/ror2000/Shope-Ease-iOS.git
    ```
 
-2. Open the project:
+2. Open `EcommerceApp.xcodeproj` in Xcode.
 
-   `EcommerceApp.xcodeproj`
+3. Select an iOS Simulator or connect a compatible iPhone.
 
-3. Select an iOS Simulator or connected iPhone.
-
-4. Build and run the application from Xcode.
+4. Build and run the application.
 
 ## 🔮 Future Improvements
 
@@ -99,9 +106,9 @@ The application includes:
 - Implement profile editing.
 - Improve error handling and user feedback.
 - Add unit and integration tests.
-- Improve application security and overall user experience.
+- Enhance application security.
+- Improve the overall user experience.
 
 ## 👩‍💻 Author
 
 **Rawan Amr**
-
